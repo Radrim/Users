@@ -1,0 +1,6 @@
+﻿@page "/Users"
+
+<PageTitle>Users</PageTitle>
+
+@using Blazor.Data
+<UserPrompt Users="@UserService.GetUserList()"></UserPrompt>
